@@ -1,2 +1,0 @@
-Python - Almost a circle
----
