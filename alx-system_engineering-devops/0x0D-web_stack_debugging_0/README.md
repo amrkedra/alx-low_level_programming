@@ -1,12 +1,13 @@
-# Web stack debugging
-Project done during **Full Stack Software Engineering studies** at **Holberton School**. It aims to learn about how to debug a webstack.
+# Web stack debugging #0
 
-## Technologies
-* Scripts written in Bash 4.3.11(1)
-* Tested on Ubuntu 14.04 LTS
+This was the first in a series of web stack debugging projects. In these
+projects, I was given broken/bugged webstacks in isolated containers,
+and tasked with fixing the web stack to a working state. For each
+task, I wrote a script automating the commands necessary to fix the
+web stack.
 
-## Files
+## Task :page_with_curl:
 
-| Filename | Description |
-| -------- | ----------- |
-| `0-give_me_a_page` | Turns on the Apache server |
+* **0. Give me a page!**
+  * [0-give_me_a_page](./0-give_me_a_page): Bash script that runs Apache on a
+  web server and gets it to respond to queries to the root.

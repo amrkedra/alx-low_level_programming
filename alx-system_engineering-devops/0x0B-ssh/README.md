@@ -1,16 +1,18 @@
 # SSH
-Project done during **Full Stack Software Engineering studies** at **Holberton School**. It aims to learn about what is a SSH, how to create an SSH RSA key pair and how to connect to a remote host using SSH.
 
-## Technologies
-* Scripts written in Bash 4.3.11(1)
-* Tested on Ubuntu 14.04 LTS
-* Puppet 3.8
+In this project, I became familiar connecting to and working
+with servers using the SSH protocol. I worked on a server
+provided by ALX.
 
-## Files
+## Tasks :page_with_curl:
 
-| Filename | Description |
-| -------- | ----------- |
-| `0-use_a_private_key` | Uses `ssh` to connect to a server using a private key previously generated |
-| `1-create_ssh_key_pair` | Creates an RSA key pair |
-| `2-ssh_config` | SSH client configuration using a private key and refusing to authenticate using a password |
-| `4-puppet_ssh_config.pp` | Sets up the client SSH configuration file to connect to a server without typing a password |
+* **0. Use a private key**
+  * [0-use_a_private_key](./0-use_a_private_key): Bash script that uses `ssh` to connect to my
+ALX-provided server.
+
+* **1. Create an SSH key pair**
+  * [1-create_ssh_key_pair](./1-create_ssh_key_pair): Bash script that creates an RSA key pair.
+
+* **2. Client configuration file**
+  * [2-ssh_config](./2-ssh_config): SSH configuration file configured to use the private key
+`~/.ssh/school` and to refuse authentication using a password.
